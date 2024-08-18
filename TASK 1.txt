@@ -1,0 +1,56 @@
+command 1
+to create database named employee
+
+
+CREATE DATABASE employee;
+
+
+
+command 2 
+to create a table named emp_details with 4 columns (emp_id,emp_name,emp_ph,emp_pass)
+
+
+CREATE TABLE emp_details(emp_id INT(11), emp_name VARCHAR(255), emp_ph VARCHAR(255), emp_ph VARCHAR(255));
+
+
+
+COMMAND 3
+to show the basic layout of table without any entry
+
+
+SELECT * FROM 'emp_details';
+
+
+
+command 4 
+to modify the name of column from emp_name to emp_naam
+
+
+ALTER TABLE emp_details CHANGE COLUMN emp_name emp_naam VARCHAR(255);
+
+
+
+command 5
+to insert into table
+
+
+INSERT INTO emp_details(emp_id, emp_naam, emp_ph, emp_pass) VALUES('1101','VIKAS','959595959','987654321')
+
+
+
+commad 6
+this command will drop all the contents of table employee
+
+
+DROP TABLE emp_details;
+
+
+
+command 7
+this command will drop all the content of the database ie everything in database
+
+
+DROP DATABASE employee;
+
+
+please refer the readme for the output of the command
